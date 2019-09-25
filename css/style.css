@@ -7,11 +7,11 @@
 }
 
 /* Section 1 */
-.row .col-sm-6{
+.row .col-lg-6{
     margin-top: 18%;
 }
 
-.section-1 .col-md-6 .p{
+.section-1 .col-lg-6 .p{
     margin-top: 5%; 
 }
 
@@ -97,6 +97,7 @@ footer .col-md-2 img{
 }
 
 @media screen and (max-width: 320px){
+
     .banner h2{
         font-size: 20px;
     }
