@@ -97,9 +97,6 @@ footer .col-md-2 img{
 }
 
 @media screen and (max-width: 320px){
-    html{
-        overflow-y: hidden;
-    }
     .banner h2{
         font-size: 20px;
     }
