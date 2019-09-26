@@ -6,6 +6,38 @@
     padding: 25px 0 200px;
 }
 
+.site-content
+{
+    background-image: url(https://lelogama.go-jek.com/component/hero/picture/HOME-PAGE.jpg);
+    height: 90vh;
+    background-position: center;
+
+}
+
+.site-tittle, .site-desc{
+    color: white;
+}
+
+.site-tittle{
+    margin-top: 20%;
+    margin-bottom: 6%;
+    font-size: 50px;
+}
+
+
+.site-desc
+{
+    font-size: 14px;
+    padding-left: 15%;
+    color: white;
+    text-align: center;
+}
+
+.site-content .btn-site{
+    margin-bottom: 10%;
+}
+
+
 /* Section 1 */
 .row .col-lg-6{
     margin-top: 18%;
@@ -97,8 +129,13 @@ footer .col-md-2 img{
 }
 
 @media screen and (max-width: 320px){
+    .site-content{
+        height: 50vh;
+        background-position: center;
+    }
 
-    .banner h2{
+    
+    .site-content h2{
         font-size: 20px;
     }
 
